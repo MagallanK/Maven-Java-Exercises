@@ -38,12 +38,8 @@ public class MyFirstTest {
     @Test
     public void testIfTrueOrFalse(){
         String language = "PHP";
-        language.contains("H"); // use assertTrue for this statement
-        language.contains("J"); // use assertFalse for this statement
-
-        assertTrue("H is in the string PHP", true);
-        assertFalse("J is not in the string PHP", false);
-//Similar to If statement?
+        assertTrue(language.contains("H")); // use assertTrue for this statement
+        assertFalse(language.contains("J")); // use assertFalse for this statement
     }
 
 }
