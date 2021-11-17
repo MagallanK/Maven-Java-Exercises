@@ -21,9 +21,9 @@ public class CodeupCryptTests {
         String password = "Password";
         String expectedHash = "P4ssw0rd";
 
-        String hasedPassword = CodeupCrypt.hashPassword(password);
+        String hashedPassword = CodeupCrypt.hashPassword(password);
 
-        assertEquals(expectedHash, hasedPassword);
+        assertEquals(expectedHash, hashedPassword);
         assertEquals("P13", CodeupCrypt.hashPassword("Pie"));
         assertEquals("J9n1t", CodeupCrypt.hashPassword("JUnit"));
     }
